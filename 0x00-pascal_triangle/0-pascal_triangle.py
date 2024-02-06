@@ -9,9 +9,9 @@ def pascal_triangle(n):
     """
     return list of lists of integers
     """
-    listt = [];
+    listt = []
     if (n <= 0):
-        return [];
+        return []
     for i in range(n):
         listt.append([])
         listt[i].append(1)
